@@ -15,5 +15,4 @@
         'report/hr_timesheet_attendance_report_view.xml',
     ],
     'auto_install': True,
-    'license': 'LGPL-3',
 }

@@ -18,5 +18,4 @@ Publish your employees public information on About Us website page.
         'views/website_hr_templates.xml',
         'views/hr_employee_views.xml',
     ],
-    'license': 'LGPL-3',
 }

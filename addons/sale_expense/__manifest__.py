@@ -27,5 +27,4 @@ This module allow to reinvoice employee expense, by setting the SO directly on t
     'test': [],
     'installable': True,
     'auto_install': True,
-    'license': 'LGPL-3',
 }

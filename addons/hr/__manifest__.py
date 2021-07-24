@@ -37,5 +37,4 @@
     'application': True,
     'auto_install': False,
     'qweb': [],
-    'license': 'LGPL-3',
 }

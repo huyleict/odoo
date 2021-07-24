@@ -44,5 +44,4 @@ Notes:
         'data/account_chart_template_data.xml',
     ],
     'post_init_hook': '_post_init_hook',
-    'license': 'LGPL-3',
 }

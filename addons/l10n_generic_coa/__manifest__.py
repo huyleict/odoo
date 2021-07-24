@@ -27,5 +27,4 @@ Install some generic chart of accounts.
         'data/account_invoice_demo.xml',
     ],
     'uninstall_hook': 'uninstall_hook',
-    'license': 'LGPL-3',
 }

@@ -27,5 +27,4 @@ Italian accounting chart and localization.
         'data/account.chart.template.csv',
         'data/account_chart_template_data.xml',
         ],
-    'license': 'LGPL-3',
 }

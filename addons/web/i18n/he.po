@@ -16,7 +16,6 @@
 # Amit Spilman <amit@laylinetech.com>, 2019
 # hed shefetr <hed@laylinetech.com>, 2019
 # ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020
-# Lilach Gilliam <lilach.gilliam@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -24,7 +23,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-13 07:03+0000\n"
 "PO-Revision-Date: 2018-08-24 09:33+0000\n"
-"Last-Translator: Lilach Gilliam <lilach.gilliam@gmail.com>, 2021\n"
+"Last-Translator: ZVI BLONDER <ZVIBLONDER@gmail.com>, 2020\n"
 "Language-Team: Hebrew (https://www.transifex.com/odoo/teams/41243/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -276,7 +275,7 @@ msgstr "הכל"
 #: code:addons/web/static/src/xml/base.xml:633
 #, python-format
 msgid "ANY"
-msgstr "כל"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -325,7 +324,7 @@ msgstr "הפעל"
 #: code:addons/web/static/src/xml/base.xml:248
 #, python-format
 msgid "Activate Assets Debugging"
-msgstr "הפעל איתור באגים על נכסים"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -393,7 +392,7 @@ msgstr "הוסף שורה"
 #: code:addons/web/static/src/xml/base.xml:616
 #, python-format
 msgid "Add branch"
-msgstr "הוספת מעבר עמוד"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -421,7 +420,7 @@ msgstr "הוסף ערך חדש"
 #: code:addons/web/static/src/xml/base.xml:615
 #, python-format
 msgid "Add node"
-msgstr "הוסף: "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -736,7 +735,7 @@ msgstr "יומן"
 #: code:addons/web/static/src/js/views/calendar/calendar_view.js:44
 #, python-format
 msgid "Calendar view has not defined 'date_start' attribute."
-msgstr "לתצוגת יומן אין תכונת  \"date_start\" מוגדרת."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1054,7 +1053,7 @@ msgstr "תאריך יצירה:"
 #: code:addons/web/static/src/xml/base.xml:303
 #, python-format
 msgid "Creation User:"
-msgstr "משתמש היצירה"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1182,7 +1181,7 @@ msgstr "בטל"
 #: code:addons/web/static/src/xml/menu.xml:150
 #, python-format
 msgid "Discard a record modification"
-msgstr "מחק שינוי הרשומה"
+msgstr ""
 
 #. module: web
 #: model:ir.model.fields,field_description:web.field_report_layout__display_name
@@ -1194,7 +1193,7 @@ msgstr "השם המוצג"
 #: code:addons/web/static/src/js/widgets/data_export.js:362
 #, python-format
 msgid "Do you really want to delete this export template?"
-msgstr "האם באמת ברצונך למחוק את תבנית הייצוא?"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1413,7 +1412,7 @@ msgstr "ייצוא נתונים"
 #: code:addons/web/static/src/xml/base.xml:1400
 #, python-format
 msgid "Export Format:"
-msgstr "תצורות ייצוא :"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1557,7 +1556,7 @@ msgstr "קפל"
 #: code:addons/web/static/src/xml/base.xml:756
 #, python-format
 msgid "Followed by"
-msgstr "עוקבים"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -1568,8 +1567,6 @@ msgid ""
 "\n"
 "Tip: try to flip axis, filter further or reduce the number of measures."
 msgstr ""
-"לתאימות Excel, לא ניתן לייצא נתונים אם יש יותר מ 256 עמודות. עצה: נסה להפוך "
-"את הציר, לסנן עוד יותר או להקטין את מספר המדדים."
 
 #. module: web
 #. openerp-web
@@ -1613,7 +1610,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/kanban/kanban_column_quick_create.js:189
 #, python-format
 msgid "Got it"
-msgstr "התקבל"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2250,7 +2247,7 @@ msgstr "אין מידע להצגה"
 #: code:addons/web/static/src/js/tools/debug_manager.js:374
 #, python-format
 msgid "No metadata available"
-msgstr "אין נתונים זמינים."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2307,7 +2304,7 @@ msgstr "Odoo"
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
 msgid "Odoo Apps will be available soon"
-msgstr "אפליקציות Odoo יהיו זמינות בקרוב"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2316,7 +2313,7 @@ msgstr "אפליקציות Odoo יהיו זמינות בקרוב"
 #: code:addons/web/static/src/js/services/crash_manager.js:153
 #, python-format
 msgid "Odoo Client Error"
-msgstr "שגיאת Odoo"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2337,7 +2334,7 @@ msgstr "שגיאת Odoo"
 #: code:addons/web/static/src/js/services/crash_manager.js:212
 #, python-format
 msgid "Odoo Session Expired"
-msgstr "תם זמן הפעולה של אפליקציית Odoo !"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2398,7 +2395,7 @@ msgstr "רק ערך מספר שלם אמור להיות תקף."
 #: code:addons/web/static/src/js/fields/basic_fields.js:1982
 #, python-format
 msgid "Only Integer or Float Value should be valid."
-msgstr "רק ערך מספר שלם אמור להיות חוקי."
+msgstr ""
 
 #. module: web
 #: code:addons/web/controllers/main.py:502
@@ -2573,7 +2570,7 @@ msgstr "אנא לחץ תחילה על כפתור \"שמור\"."
 #: code:addons/web/static/src/js/widgets/data_export.js:177
 #, python-format
 msgid "Please enter save field list name"
-msgstr "אנא הכנס שם שדה מבסיס נתונים:"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2725,14 +2722,14 @@ msgstr ""
 #: code:addons/web/static/src/js/widgets/model_field_selector.js:467
 #, python-format
 msgid "Relation not allowed"
-msgstr "יחס לא מורשה"
+msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:771
 #, python-format
 msgid "Relation to follow"
-msgstr "יחס למעקב"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -2795,7 +2792,7 @@ msgstr ""
 #: code:addons/web/static/src/js/services/crash_manager.js:223
 #, python-format
 msgid "Request timeout"
-msgstr "הבקשה אינה בתוקף"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3173,7 +3170,7 @@ msgstr "טלפון:"
 #: code:addons/web/static/src/js/widgets/domain_selector.js:583
 #, python-format
 msgid "The domain you entered is not properly formed"
-msgstr "הדומיין שהוזן אינו נתמך."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3781,8 +3778,6 @@ msgid ""
 "You need to start Odoo with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"אתה צריך להתחיל את Odoo עם לפחות שני שטחי עבודה כדי להדפיס גרסת PDF של "
-"הדוחות."
 
 #. module: web
 #. openerp-web
@@ -3808,7 +3803,7 @@ msgstr "נותקת מהחשבון עקב אי-שימוש. נא לרענן את �
 msgid ""
 "Your installation of Wkhtmltopdf seems to be broken. The report will be "
 "shown in html."
-msgstr "לא ניתן למצוא Wkhtmltopdf במערכת זו. הדוח יוצג ב- html."
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3864,7 +3859,7 @@ msgstr "כל הרשומות"
 #: code:addons/web/static/src/js/widgets/domain_selector.js:28
 #, python-format
 msgid "child of"
-msgstr "בן של "
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -3954,7 +3949,7 @@ msgstr "לפני או שווה ל-"
 #: code:addons/web/static/src/js/views/search/search_filters.js:190
 #, python-format
 msgid "is between"
-msgstr "בין"
+msgstr ""
 
 #. module: web
 #. openerp-web
@@ -4121,7 +4116,7 @@ msgstr "או"
 #: code:addons/web/static/src/js/widgets/domain_selector.js:29
 #, python-format
 msgid "parent of"
-msgstr "הורה של"
+msgstr ""
 
 #. module: web
 #. openerp-web

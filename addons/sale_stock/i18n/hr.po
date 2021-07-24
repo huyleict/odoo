@@ -10,8 +10,8 @@
 # Mario Jureša <mario.juresa@uvid.hr>, 2019
 # Tina Milas, 2019
 # Vladimir Olujić <olujic.vladimir@storm.hr>, 2019
+# Bole <bole@dajmi5.com>, 2020
 # Miro Sertić, 2020
-# Bole <bole@dajmi5.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -19,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-09 10:32+0000\n"
 "PO-Revision-Date: 2018-08-24 09:25+0000\n"
-"Last-Translator: Bole <bole@dajmi5.com>, 2021\n"
+"Last-Translator: Miro Sertić, 2020\n"
 "Language-Team: Croatian (https://www.transifex.com/odoo/teams/41243/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,8 +49,6 @@ msgid ""
 "<span class=\"badge badge-danger label-text-align\"><i class=\"fa fa-fw fa-"
 "times\"/> Cancelled</span>"
 msgstr ""
-"<span class=\"badge badge-danger label-text-align\"><i class=\"fa fa-fw fa-"
-"times\"/> Otkazano</span>"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.sale_order_portal_content_inherit_sale_stock
@@ -95,7 +93,7 @@ msgstr ""
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.stock_production_lot_view_form
 msgid "<span class=\"o_stat_text\">Sale Orders</span>"
-msgstr "<span class=\"o_stat_text\">Ponude</span>"
+msgstr ""
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.product_template_view_form_inherit_stock
@@ -146,7 +144,7 @@ msgstr ""
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_stock_rules_report__so_route_ids
 msgid "Apply specific rotues"
-msgstr "Primjeni odabrane rute"
+msgstr ""
 
 #. module: sale_stock
 #: model:ir.model.fields,help:sale_stock.field_stock_rules_report__so_route_ids
@@ -403,7 +401,7 @@ msgstr ""
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_stock_move__sale_line_id
 msgid "Sale Line"
-msgstr "Stavka prodaje"
+msgstr ""
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_sale_order
@@ -419,12 +417,12 @@ msgstr "Prodajni nalozi"
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_stock_production_lot__sale_order_count
 msgid "Sale order count"
-msgstr "Broj prodajnih naloga"
+msgstr ""
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_sale_report
 msgid "Sales Analysis Report"
-msgstr "Izvještaj analize prodaje"
+msgstr ""
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_stock_picking__sale_id
@@ -474,7 +472,7 @@ msgstr "Mogućnost odabira u retku prodajnog naloga"
 #. module: sale_stock
 #: selection:res.config.settings,default_picking_policy:0
 msgid "Ship all products at once"
-msgstr "Isporuči sve proizvode odjednom"
+msgstr ""
 
 #. module: sale_stock
 #: selection:res.config.settings,default_picking_policy:0
@@ -489,7 +487,7 @@ msgstr "Pravila otpreme"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.product_template_view_form_inherit_stock
 msgid "Sold in the last 365 days"
-msgstr "Prodano u zadnjih 365 dana"
+msgstr ""
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_move
@@ -510,7 +508,7 @@ msgstr "Skladišno pravilo"
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_rules_report
 msgid "Stock Rules report"
-msgstr "Izvještaj skladišnih pravila"
+msgstr ""
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_report_stock_report_stock_rule
@@ -563,12 +561,12 @@ msgstr "Upozorenje!"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock
 msgid "When to reserve sold products"
-msgstr "Kada rezerviram prodane proizvode"
+msgstr ""
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock
 msgid "When to start shipping"
-msgstr "Kada kreće isporuka"
+msgstr ""
 
 #. module: sale_stock
 #: code:addons/sale_stock/models/sale_order.py:295
@@ -600,7 +598,7 @@ msgstr ""
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.exception_on_so
 msgid "cancelled"
-msgstr "otkazano"
+msgstr ""
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock

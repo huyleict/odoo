@@ -494,8 +494,7 @@ def run_unit_tests(module_name, dbname, position='at_install'):
     :rtype: bool
     """
     global current_test
-    # avoid dependency hell
-    from odoo.tests.common import TagsSelector, OdooSuite
+    from odoo.tests.common import TagsSelector # Avoid import loop
     current_test = module_name
     mods = get_test_modules(module_name)
     threading.currentThread().testing = True
@@ -504,7 +503,7 @@ def run_unit_tests(module_name, dbname, position='at_install'):
     r = True
     for m in mods:
         tests = unwrap_suite(unittest.TestLoader().loadTestsFromModule(m))
-        suite = OdooSuite(t for t in tests if position_tag.check(t) and config_tags.check(t))
+        suite = unittest.TestSuite(t for t in tests if position_tag.check(t) and config_tags.check(t))
 
         if suite.countTestCases():
             t0 = time.time()

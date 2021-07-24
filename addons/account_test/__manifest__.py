@@ -26,6 +26,5 @@ and print the report from Print button in header area.
         'report/report_account_test_templates.xml',
     ],
     'active': False,
-    'installable': True,
-    'license': 'LGPL-3',
+    'installable': True
 }

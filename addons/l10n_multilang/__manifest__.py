@@ -13,5 +13,4 @@
           templates to target objects.
     """,
     'depends': ['account'],
-    'license': 'LGPL-3',
 }

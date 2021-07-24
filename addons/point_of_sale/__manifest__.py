@@ -50,5 +50,4 @@
     'application': True,
     'qweb': ['static/src/xml/pos.xml'],
     'website': 'https://www.odoo.com/page/point-of-sale-shop',
-    'license': 'LGPL-3',
 }

@@ -28,5 +28,4 @@
     'installable': True,
     'auto_install': True,
     'post_init_hook': '_create_buy_rules',
-    'license': 'LGPL-3',
 }

@@ -16,5 +16,4 @@ Allows users to send documents by post
         'security/ir.model.access.csv',
     ],
     'auto_install': True,
-    'license': 'LGPL-3',
 }

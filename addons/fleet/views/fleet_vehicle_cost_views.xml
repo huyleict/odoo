@@ -10,7 +10,6 @@
                     <field name="description"/>
                     <field name="cost_subtype_id"/>
                     <field name="date"/>
-                    <field name="contract_id"/>
                 </tree>
             </field>
         </record>
@@ -127,7 +126,6 @@
                             </group>
                             <group>
                                 <field name="date"/>
-                                <field name="contract_id"/>
                                 <field name="parent_id" groups="base.group_no_one"/>
                             </group>
                         </group>

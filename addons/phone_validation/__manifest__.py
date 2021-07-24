@@ -19,5 +19,4 @@ This module applies this feature to Leads and Contacts.""",
         'views/res_company_view.xml'
     ],
     'depends': ['base'],
-    'license': 'LGPL-3',
 }

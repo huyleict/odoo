@@ -17,5 +17,4 @@ This module adds a PAD in all project form views.
         'views/project_views.xml'
     ],
     'auto_install': True,
-    'license': 'LGPL-3',
 }

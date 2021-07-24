@@ -25,5 +25,4 @@ project.
         'data/ir_translation_view.xml',
     ],
     'depends': ['base'],
-    'license': 'LGPL-3',
 }

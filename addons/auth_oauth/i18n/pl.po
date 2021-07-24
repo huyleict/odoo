@@ -8,7 +8,6 @@
 # Andrzej Donczew <a.donczew@hadron.eu.com>, 2018
 # Radosław Biegalski <radoslaw.biegalski@openglobe.pl>, 2018
 # Maksym <ms@myodoo.pl>, 2018
-# Piotr Strębski <strebski@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -16,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-14 07:34+0000\n"
 "PO-Revision-Date: 2018-08-24 09:15+0000\n"
-"Last-Translator: Piotr Strębski <strebski@gmail.com>, 2021\n"
+"Last-Translator: Maksym <ms@myodoo.pl>, 2018\n"
 "Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,7 +47,7 @@ msgstr "Zezwalaj użytkownikom slogować się przez Google"
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.res_config_settings_view_form
 msgid "Allow users to sign in with their Google account"
-msgstr "Pozwól użytkownikom logować się za pomocą ich kont Google"
+msgstr ""
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__enabled
@@ -109,7 +108,7 @@ msgstr "Nazwa wyświetlana"
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.res_config_settings_view_form
 msgid "Google Authentication"
-msgstr "Uwierzytelnienie Google"
+msgstr ""
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__id
@@ -144,7 +143,7 @@ msgstr ""
 #. module: auth_oauth
 #: model:auth.oauth.provider,body:auth_oauth.provider_google
 msgid "Log in with Google"
-msgstr "Zaloguj poprzez Google"
+msgstr ""
 
 #. module: auth_oauth
 #: model:auth.oauth.provider,body:auth_oauth.provider_openerp
@@ -256,4 +255,4 @@ msgstr ""
 #. module: auth_oauth
 #: model_terms:ir.ui.view,arch_db:auth_oauth.res_config_settings_view_form
 msgid "e.g. 1234-xyz.apps.googleusercontent.com"
-msgstr "np. 1234-xyz.apps.googleusercontent.com"
+msgstr ""

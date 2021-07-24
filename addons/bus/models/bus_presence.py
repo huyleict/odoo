@@ -2,12 +2,9 @@
 import datetime
 import time
 
-from psycopg2 import OperationalError
-
 from odoo import api, fields, models
 from odoo import tools
 from odoo.addons.bus.models.bus import TIMEOUT
-from odoo.service.model import PG_CONCURRENCY_ERRORS_TO_RETRY
 from odoo.tools.misc import DEFAULT_SERVER_DATETIME_FORMAT
 
 DISCONNECTION_TIMER = TIMEOUT + 5
@@ -37,20 +34,6 @@ class BusPresence(models.Model):
         """ Updates the last_poll and last_presence of the current user
             :param inactivity_period: duration in milliseconds
         """
-        # This method is called in method _poll() and cursor is closed right
-        # after; see bus/controllers/main.py.
-        try:
-            self._update(inactivity_period)
-            # commit on success
-            self.env.cr.commit()
-        except OperationalError as e:
-            if e.pgcode in PG_CONCURRENCY_ERRORS_TO_RETRY:
-                # ignore concurrency error
-                return self.env.cr.rollback()
-            raise
-
-    @api.model
-    def _update(self, inactivity_period):
         presence = self.search([('user_id', '=', self._uid)], limit=1)
         # compute last_presence timestamp
         last_presence = datetime.datetime.now() - datetime.timedelta(milliseconds=inactivity_period)
@@ -68,3 +51,5 @@ class BusPresence(models.Model):
             # Hide transaction serialization errors, which can be ignored, the presence update is not essential
             with tools.mute_logger('odoo.sql_db'):
                 presence.write(values)
+        # avoid TransactionRollbackError
+        self.env.cr.commit() # TODO : check if still necessary

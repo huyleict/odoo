@@ -57,7 +57,13 @@ class Partner(models.Model):
         if parent_members:
             parent_members._recompute_todo(self._fields['membership_state'])
 
-    @api.depends('associate_member', 'member_lines.date_from', 'member_lines.date_cancel')
+    @api.depends('member_lines.account_invoice_line.invoice_id.state',
+                 'member_lines.account_invoice_line.invoice_id.invoice_line_ids',
+                 'member_lines.account_invoice_line.invoice_id.payment_ids',
+                 'free_member',
+                 'member_lines.date_to', 'member_lines.date_from', 'member_lines.date_cancel',
+                 'membership_state',
+                 'associate_member.membership_state')
     def _compute_membership_start(self):
         """Return  date of membership"""
         for partner in self:
@@ -65,7 +71,13 @@ class Partner(models.Model):
                 ('partner', '=', partner.associate_member.id or partner.id), ('date_cancel','=',False)
             ], limit=1, order='date_from').date_from
 
-    @api.depends('associate_member', 'member_lines.date_to', 'member_lines.date_cancel')
+    @api.depends('member_lines.account_invoice_line.invoice_id.state',
+                 'member_lines.account_invoice_line.invoice_id.invoice_line_ids',
+                 'member_lines.account_invoice_line.invoice_id.payment_ids',
+                 'free_member',
+                 'member_lines.date_to', 'member_lines.date_from', 'member_lines.date_cancel',
+                 'membership_state',
+                 'associate_member.membership_state')
     def _compute_membership_stop(self):
         MemberLine = self.env['membership.membership_line']
         for partner in self:
@@ -73,7 +85,13 @@ class Partner(models.Model):
                 ('partner', '=', partner.associate_member.id or partner.id),('date_cancel','=',False)
             ], limit=1, order='date_to desc').date_to
 
-    @api.depends('member_lines.date_cancel')
+    @api.depends('member_lines.account_invoice_line.invoice_id.state',
+                 'member_lines.account_invoice_line.invoice_id.invoice_line_ids',
+                 'member_lines.account_invoice_line.invoice_id.payment_ids',
+                 'free_member',
+                 'member_lines.date_to', 'member_lines.date_from', 'member_lines.date_cancel',
+                 'membership_state',
+                 'associate_member.membership_state')
     def _compute_membership_cancel(self):
         for partner in self:
             partner.membership_cancel = self.env['membership.membership_line'].search([

@@ -25,5 +25,4 @@ The module adds following features:
         'security/account_closing_intercompany.xml',
     ],
     'post_init_hook': '_setup_inalterability',
-    'license': 'LGPL-3',
 }

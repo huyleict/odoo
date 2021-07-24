@@ -28,5 +28,4 @@ The module adds following features:
         'views/res_config.xml',
     ],
     'post_init_hook': '_setup_inalterability',
-    'license': 'LGPL-3',
 }

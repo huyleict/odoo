@@ -40,5 +40,4 @@ only the country code will be validated.
         'views/res_partner_views.xml',
         'views/res_config_settings_views.xml',
     ],
-    'license': 'LGPL-3',
 }

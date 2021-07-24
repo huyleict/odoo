@@ -3047,7 +3047,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Working Time to Close"
-msgstr "زمان کار تا بستن"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__working_days_open
@@ -3057,7 +3057,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__working_days_close
 msgid "Working days to close"
-msgstr "روزهای کار تا بستن"
+msgstr ""
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__working_hours_open
@@ -3067,7 +3067,7 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__working_hours_close
 msgid "Working hours to close"
-msgstr "ساعت‌های کار تا بستن"
+msgstr ""
 
 #. module: project
 #: model:ir.filters,name:project.filter_task_report_workload
@@ -3106,12 +3106,6 @@ msgstr ""
 msgid ""
 "You cannot delete a project containing tasks. You can either archive it or "
 "first delete all of its tasks."
-msgstr ""
-
-#. module: project
-#: code:addons/project/models/project.py:628
-#, python-format
-msgid "Your task must be in the same company as its project."
 msgstr ""
 
 #. module: project

@@ -14,5 +14,4 @@ for customization purpose.
     'installable': True,
     'auto_install': False,
     'data': ['views/base_import_module_view.xml'],
-    'license': 'LGPL-3',
 }

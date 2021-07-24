@@ -15,6 +15,5 @@ Sell event tickets through eCommerce app.
         'security/ir.model.access.csv',
         'security/website_event_sale_security.xml',
     ],
-    'auto_install': True,
-    'license': 'LGPL-3',
+    'auto_install': True
 }

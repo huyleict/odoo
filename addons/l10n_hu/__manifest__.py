@@ -33,5 +33,4 @@ This module consists :
         'data/account_chart_template_data.xml',
         'data/account_chart_template_configure_data.xml',
     ],
-    'license': 'LGPL-3',
 }

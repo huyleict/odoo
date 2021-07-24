@@ -12,7 +12,6 @@
 # Sahar Daraye <sahar.daraye.1369@gmail.com>, 2018
 # Martin Trigaux, 2018
 # Hamed Mohammadi <hamed@dehongi.com>, 2020
-# Mohsen Mohammadi <iammohsen.123@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -20,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-04 14:42+0000\n"
 "PO-Revision-Date: 2018-08-24 09:35+0000\n"
-"Last-Translator: Mohsen Mohammadi <iammohsen.123@gmail.com>, 2021\n"
+"Last-Translator: Hamed Mohammadi <hamed@dehongi.com>, 2020\n"
 "Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -523,7 +522,7 @@ msgstr "افزودن به سبد"
 #: code:addons/website_sale/static/src/js/website_sale_options.js:88
 #, python-format
 msgid "Add to cart"
-msgstr "افزودن به سبد"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.wizard_checkout
@@ -594,7 +593,7 @@ msgstr "محول کردن سفارش‌های آنلاین"
 #. module: website_sale
 #: model:ir.ui.menu,name:website_sale.menu_catalog_variants_action
 msgid "Attribute Values"
-msgstr "مقدار مشخصه"
+msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.menu,name:website_sale.menu_product_attribute_action
@@ -813,22 +812,22 @@ msgstr "هزینه‌های ارسال محاسبه و با DHL ارسال کن"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with FedEx"
-msgstr "محاسبه هزینه ارسال با FedEx"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with UPS"
-msgstr "محاسبه هزینه ارسال با UPS"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with USPS"
-msgstr "محاسبه هزینه ارسال با USPS"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Compute shipping costs and ship with bpost"
-msgstr "محاسبه هزینه ارسال با bpost"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -878,7 +877,7 @@ msgstr "مخاطب"
 #: code:addons/website_sale/static/src/js/website_sale_options.js:87
 #, python-format
 msgid "Continue Shopping"
-msgstr "ادامه خرید"
+msgstr ""
 
 #. module: website_sale
 #. openerp-web
@@ -1513,7 +1512,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_price
 msgid "Option not available"
-msgstr "پیشنهاد در دسترس نیست"
+msgstr ""
 
 #. module: website_sale
 #: code:addons/website_sale/models/sale_order.py:238
@@ -2367,7 +2366,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "This combination does not exist."
-msgstr "این ترکیب وجود ندارد"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -2390,7 +2389,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "This product has no valid combination."
-msgstr "این محصول هیچ همخوانی معتبری ندارد"
+msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product

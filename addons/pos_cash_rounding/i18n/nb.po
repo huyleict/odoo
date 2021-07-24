@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2020
-# Marius Stedjan <marius@stedjan.com>, 2021
+# Marius Stedjan <marius@stedjan.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-25 08:38+0000\n"
 "PO-Revision-Date: 2020-05-14 12:49+0000\n"
-"Last-Translator: Marius Stedjan <marius@stedjan.com>, 2021\n"
+"Last-Translator: Marius Stedjan <marius@stedjan.com>, 2020\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/odoo/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,39 +23,38 @@ msgstr ""
 #. module: pos_cash_rounding
 #: model:ir.model,name:pos_cash_rounding.model_account_cash_rounding
 msgid "Account Cash Rounding"
-msgstr "Kontantavrunding"
+msgstr ""
 
 #. module: pos_cash_rounding
 #: model:ir.model.fields,field_description:pos_cash_rounding.field_pos_config__cash_rounding
 msgid "Cash Rounding"
-msgstr "Kontantavrunding"
+msgstr ""
 
 #. module: pos_cash_rounding
 #: model_terms:ir.ui.view,arch_db:pos_cash_rounding.res_config_view_form_inherit_pos_cash_rounding
 msgid "Cash Roundings"
-msgstr "Kontantavrundinger"
+msgstr ""
 
 #. module: pos_cash_rounding
 #: model:ir.model.fields,field_description:pos_cash_rounding.field_pos_config__rounding_method
 msgid "Cash rounding"
-msgstr "Kontantavrunding"
+msgstr ""
 
 #. module: pos_cash_rounding
 #: code:addons/pos_cash_rounding/models/pos_config.py:19
 #, python-format
 msgid "Cash rounding strategy must be: 'Add a rounding line'"
-msgstr "Strategi for avrunding må være: 'Legg til avrundingslinje\""
+msgstr ""
 
 #. module: pos_cash_rounding
 #: model_terms:ir.ui.view,arch_db:pos_cash_rounding.pos_config_view_form_inherit_cash_rounding
 msgid "Define the smallest coinage of the currency used to pay"
-msgstr "Definer den minste verdien for valutaen som brukes til betaling"
+msgstr ""
 
 #. module: pos_cash_rounding
 #: model_terms:ir.ui.view,arch_db:pos_cash_rounding.res_config_view_form_inherit_pos_cash_rounding
 msgid "Define the smallest coinage of the currency used to pay by cash"
 msgstr ""
-"Bruk den minste verdien for valutaen som brukes til betaling med kontanter"
 
 #. module: pos_cash_rounding
 #: model:ir.model.fields,field_description:pos_cash_rounding.field_account_cash_rounding__loss_account_id
@@ -65,7 +64,7 @@ msgstr "Tap konto."
 #. module: pos_cash_rounding
 #: model:ir.model.fields,field_description:pos_cash_rounding.field_pos_config__only_round_cash_method
 msgid "Only apply rounding on cash"
-msgstr "Bruk avrunding bare med kontanter"
+msgstr ""
 
 #. module: pos_cash_rounding
 #: model_terms:ir.ui.view,arch_db:pos_cash_rounding.res_config_view_form_inherit_pos_cash_rounding
@@ -97,7 +96,7 @@ msgstr "Fortjeneste konto."
 #: code:addons/pos_cash_rounding/static/src/xml/pos.xml:19
 #, python-format
 msgid "ROUNDED"
-msgstr "AVRUNDET"
+msgstr ""
 
 #. module: pos_cash_rounding
 #. openerp-web
@@ -116,12 +115,12 @@ msgstr "Avrundingsmetode"
 msgid ""
 "The Point of Sale only support the \"add a rounding line\" rounding "
 "strategy."
-msgstr "Kassasystemet støtter kun strategien \"legg til en avrundingslinje\"."
+msgstr ""
 
 #. module: pos_cash_rounding
 #: model_terms:ir.ui.view,arch_db:pos_cash_rounding.pos_order_view_form_inherit_cash_rounding
 msgid "Total Paid (with rounding)"
-msgstr "Totalt Betalt (avrundet)"
+msgstr ""
 
 #. module: pos_cash_rounding
 #: code:addons/pos_cash_rounding/models/account_cash_rounding.py:20
@@ -130,4 +129,3 @@ msgid ""
 "You are not allowed to change the cash rounding configuration while a pos "
 "session using it is already opened."
 msgstr ""
-"Du kan ikke endre innstillinger for avrunding mens en kassaøkt er åpen."

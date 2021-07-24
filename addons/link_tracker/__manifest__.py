@@ -12,5 +12,4 @@ Create short and trackable URLs.
         'views/link_tracker.xml',
         'security/ir.model.access.csv',
     ],
-    'license': 'LGPL-3',
 }

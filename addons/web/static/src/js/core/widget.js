@@ -181,17 +181,13 @@ var Widget = core.Class.extend(mixins.PropertiesMixin, ServicesMixin, {
      * Hides the widget
      */
     do_hide: function () {
-        if (this.$el) {
-            this.$el.addClass('o_hidden');
-        }
+        this.$el.addClass('o_hidden');
     },
     /**
      * Displays the widget
      */
     do_show: function () {
-        if (this.$el) {
-            this.$el.removeClass('o_hidden');
-        }
+        this.$el.removeClass('o_hidden');
     },
     /**
      * Displays or hides the widget
@@ -200,7 +196,7 @@ var Widget = core.Class.extend(mixins.PropertiesMixin, ServicesMixin, {
     do_toggle: function (display) {
         if (_.isBoolean(display)) {
             display ? this.do_show() : this.do_hide();
-        } else if (this.$el) {
+        } else {
             this.$el.hasClass('o_hidden') ? this.do_show() : this.do_hide();
         }
     },

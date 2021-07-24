@@ -7,7 +7,6 @@
 # Martin Trigaux, 2018
 # fanha99 <fanha99@hotmail.com>, 2018
 # Duy BQ <duybq86@gmail.com>, 2018
-# Trần Hà <tranthuha13590@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -15,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:25+0000\n"
-"Last-Translator: Trần Hà <tranthuha13590@gmail.com>, 2021\n"
+"Last-Translator: Duy BQ <duybq86@gmail.com>, 2018\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -122,14 +121,14 @@ msgstr "Người nhận"
 #. module: sms
 #: model:ir.model,name:sms.model_sms_api
 msgid "SMS API"
-msgstr "SMS API"
+msgstr ""
 
 #. module: sms
 #. openerp-web
 #: code:addons/sms/static/src/xml/sms_widget.xml:4
 #, python-format
 msgid "SMS Pricing"
-msgstr "SMS Pricing"
+msgstr ""
 
 #. module: sms
 #: code:addons/sms/models/mail_thread.py:48
@@ -148,7 +147,7 @@ msgstr "Gửi"
 #: model:ir.model,name:sms.model_sms_send_sms
 #: model_terms:ir.ui.view,arch_db:sms.partner_form_send_sms_form_view
 msgid "Send SMS"
-msgstr "Send SMS"
+msgstr ""
 
 #. module: sms
 #: model_terms:ir.ui.view,arch_db:sms.send_sms_view_form

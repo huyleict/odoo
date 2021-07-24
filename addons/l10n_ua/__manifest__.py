@@ -22,5 +22,4 @@ Ukraine - Chart of accounts.
         'data/account_tax_template.xml',
         'data/account_chart_template_config.xml',
     ],
-    'license': 'LGPL-3',
 }

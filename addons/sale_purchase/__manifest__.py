@@ -23,5 +23,4 @@ by external providers and will automatically generate purchase orders directed t
     'demo': [
     ],
     'auto_install': True,
-    'license': 'LGPL-3',
 }

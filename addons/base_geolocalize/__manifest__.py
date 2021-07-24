@@ -13,5 +13,4 @@ Partners Geolocation
         'views/res_partner_views.xml',
     ],
     'installable': True,
-    'license': 'LGPL-3',
 }

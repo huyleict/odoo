@@ -14,6 +14,5 @@ This module allows to send website content to Gengo translation service in a sin
     ],
     'data': [
         'views/website_gengo_templates.xml',
-    ],
-    'license': 'LGPL-3',
+    ]
 }

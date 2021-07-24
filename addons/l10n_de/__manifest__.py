@@ -25,5 +25,4 @@ German accounting chart and localization.
         'report/din5008_report.xml',
         'data/report_layout.xml',
     ],
-    'license': 'LGPL-3',
 }

@@ -32,6 +32,5 @@ this event.
     ],
     'demo': ['data/event_demo.xml'],
     'installable': True,
-    'auto_install': True,
-    'license': 'LGPL-3',
+    'auto_install': True
 }
