@@ -13,7 +13,6 @@ import tempfile
 import zipfile
 
 import requests
-import werkzeug.urls
 
 from odoo.tools import pycompat
 
@@ -749,7 +748,7 @@ class Module(models.Model):
             _logger.warning(msg)
             raise UserError(msg)
 
-        apps_server = werkzeug.urls.url_parse(self.get_apps_server())
+        apps_server = urls.url_parse(self.get_apps_server())
 
         OPENERP = odoo.release.product_name.lower()
         tmp = tempfile.mkdtemp()
@@ -760,7 +759,7 @@ class Module(models.Model):
                 if not url:
                     continue    # nothing to download, local version is already the last one
 
-                up = werkzeug.urls.url_parse(url)
+                up = urls.url_parse(url)
                 if up.scheme != apps_server.scheme or up.netloc != apps_server.netloc:
                     raise AccessDenied()
 

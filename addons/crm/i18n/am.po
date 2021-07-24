@@ -3,17 +3,15 @@
 # * crm
 # 
 # Translators:
+# Martin Trigaux, 2017
 # Kiros Haregewoine <kirosharegewoine@yahoo.com>, 2017
-# Martin Trigaux, 2018
-# Eyuel Solomon <eyuelsolomonad@gmail.com>, 2021
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 11:58+0000\n"
-"PO-Revision-Date: 2017-09-20 10:16+0000\n"
-"Last-Translator: Eyuel Solomon <eyuelsolomonad@gmail.com>, 2021\n"
+"PO-Revision-Date: 2018-04-20 11:58+0000\n"
+"Last-Translator: Kiros Haregewoine <kirosharegewoine@yahoo.com>, 2017\n"
 "Language-Team: Amharic (https://www.transifex.com/odoo/teams/41243/am/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -530,7 +528,7 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "<strong>New:</strong>"
-msgstr "<strong>አዲስ:</strong>"
+msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner

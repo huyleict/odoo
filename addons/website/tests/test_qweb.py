@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
-import contextlib
-import re
 
+import re
 import werkzeug
-from mock import MagicMock, Mock, patch
 
 import odoo
-from odoo import http, tools
+from odoo import tools
 from odoo.modules.module import get_module_resource
 from odoo.tests.common import TransactionCase
 
@@ -68,39 +66,41 @@ class TestQweb(TransactionCase):
             "user_id": demo.id,
         }).encode('utf8'))
 
+class MockObject(object):
+    _log_call = []
+    def __init__(self, *args, **kwargs):
+        self.__dict__ = kwargs
+    def __call__(self, *args, **kwargs):
+        self._log_call.append((args, kwargs))
+        return self
+    def __getitem__(self, index):
+        return self
+
 def werkzeugRaiseNotFound(*args, **kwargs):
     raise werkzeug.exceptions.NotFound()
 
-@contextlib.contextmanager
-def MockRequest(env, website=None, context=None, multilang=True, routing=True):
-    router = MagicMock()
-    match = router.return_value.bind.return_value.match
-    if routing:
-        match.return_value[0].routing = {
+class MockRequest(object):
+    """ Class with context manager mocking odoo.http.request for tests """
+    def __init__(self, env, website=None, context=None, multilang=True, routing=True):
+        app = MockObject(routing={
             'type': 'http',
             'website': True,
             'multilang': multilang,
-        }
-    else:
-        match.side_effect = werkzeugRaiseNotFound
-
-    request = Mock(
-        env=env, context=context or {}, db=None, debug=False,
-        endpoint=match.return_value[0] if routing else None,
-        httprequest=Mock(
-            host='localhost',
-            path='/hello/',
-            environ={'REMOTE_ADDR': '127.0.0.1'},
-            referrer='',
-        ),
-        website=website,
-    )
-
-    odoo.http._request_stack.push(request)
-    try:
-        with patch('odoo.http.root.get_db_router', router):
-            yield request
-    finally:
+        })
+        app.get_db_router = app.bind = app.match = app
+        if not routing:
+            app.match = werkzeugRaiseNotFound
+        self.request = MockObject(
+            env=env, context=context or {}, db=None, debug=False,
+            website=website, httprequest=MockObject(
+                path='/hello/',
+                app=app
+            )
+        )
+    def __enter__(self):
+        odoo.http._request_stack.push(self.request)
+        return self.request
+    def __exit__(self, exc_type, exc_value, traceback):
         odoo.http._request_stack.pop()
 
 class TestQwebProcessAtt(TransactionCase):
@@ -173,12 +173,15 @@ class TestQwebProcessAtt(TransactionCase):
             self._test_att('/my-page', {'href': '/fr_FR/my-page'})
 
     def test_process_att_url_crap(self):
-        with MockRequest(self.env, self.website):
-            match = http.root.get_db_router.return_value.bind.return_value.match
+        with MockRequest(self.env, self.website) as request:
             # #{fragment} is stripped from URL when testing route
             self._test_att('/x#y?z', {'href': '/x#y?z'})
-            match.assert_called_with('/x', method='POST', query_args=None)
-
-            match.reset_calls()
+            self.assertEqual(
+                request.httprequest.app._log_call[-1],
+                (('/x',), {'method': 'POST', 'query_args': None})
+            )
             self._test_att('/x?y#z', {'href': '/x?y#z'})
-            match.assert_called_with('/x', method='POST', query_args='y')
+            self.assertEqual(
+                request.httprequest.app._log_call[-1],
+                (('/x',), {'method': 'POST', 'query_args': 'y'})
+            )

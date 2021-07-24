@@ -13,6 +13,7 @@
 # Massimo Bianchi <bianchi.massimo@gmail.com>, 2018
 # p_amoruso <p.amoruso@elvenstudio.it>, 2018
 # Marius Marolla <mariusmarolla@entersys.it>, 2018
+# Leonardo Donelli <learts92@gmail.com>, 2018
 # Christian <chris@effeci.info>, 2018
 # Giacomo Grasso <giacomo.grasso.82@gmail.com>, 2018
 # Fabio Genovese <ing.fabiogenovese@gmail.com>, 2018
@@ -25,7 +26,7 @@
 # Paolo Valier, 2018
 # Davide Corio <enlightx@gmail.com>, 2019
 # Léonie Bouchat <lbo@odoo.com>, 2019
-# Sergio Zanchetta <primes2h@gmail.com>, 2021
+# Sergio Zanchetta <primes2h@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -33,7 +34,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-03 15:06+0000\n"
 "PO-Revision-Date: 2017-09-20 10:19+0000\n"
-"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2021\n"
+"Last-Translator: Sergio Zanchetta <primes2h@gmail.com>, 2019\n"
 "Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -136,12 +137,13 @@ msgstr ""
 #: code:addons/mail/models/mail_channel.py:682
 #, python-format
 msgid " This channel is private. People must be invited to join it."
-msgstr "Il canale è privato, per partecipare è necessario ricevere un invito."
+msgstr ""
+"Questo canale è privato. Le persone devono essere invitate per entrare."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_type_days
 msgid "# Days"
-msgstr "N. giorni"
+msgstr "nr. Giorni"
 
 #. module: mail
 #: model:mail.template,subject:mail.mail_template_data_notification_email_default
@@ -170,7 +172,7 @@ msgstr "%(user_name)s ti ha invitato a seguire un nuovo documento."
 #: code:addons/mail/static/src/js/chat_manager.js:63
 #, python-format
 msgid "%d Messages"
-msgstr "%d messaggi"
+msgstr "%d Messaggi"
 
 #. module: mail
 #. openerp-web
@@ -239,21 +241,21 @@ msgstr "-------- Mostra messaggi precedenti --------"
 #: code:addons/mail/static/src/xml/systray.xml:78
 #, python-format
 msgid "0 Future"
-msgstr "0 in futuro"
+msgstr "0 Futuri"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:74
 #, python-format
 msgid "0 Late"
-msgstr "0 in ritardo"
+msgstr "0 Ritardo"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/systray.xml:76
 #, python-format
 msgid "0 Today"
-msgstr "0 oggi"
+msgstr "0 Oggi"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:686
@@ -323,9 +325,9 @@ msgid ""
 "messages.</p><p><i>You might need to invite users from the Settings app "
 "first.</i></p>"
 msgstr ""
-"<p><b>Chat con i colleghi</b> in tempo reale usando i messaggi "
-"diretti.</p><p><i>Potrebbe essere necessario invitare gli utenti da "
-"\"Impostazioni\".</i></p>"
+"<p><b>Chatta con i colleghi</b> in tempo reale usando i messaggi "
+"diretti.</p><p><i>Potrebbe essere prima necessario invitare gli utenti da "
+"Configurazione.</i></p>"
 
 #. module: mail
 #. openerp-web
@@ -441,7 +443,7 @@ msgstr ""
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_form_popup
 msgid "<strong>Recommended Activities</strong>"
-msgstr "<strong>Attività consigliate</strong>"
+msgstr "<strong>Attività Raccomandate</strong>"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_defaults
@@ -452,8 +454,8 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
-"Dizionario Python che verrà esaminato per fornire valori predefiniti durante"
-" la creazione di nuovi record per l'alias."
+"Un dizionario Python che verrà valutato per fornire valori predefiniti "
+"durante la creazione di nuovi record per questo alias."
 
 #. module: mail
 #: model:ir.actions.act_window,help:mail.mail_shortcode_action
@@ -467,7 +469,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model,name:mail.model_res_groups
 msgid "Access Groups"
-msgstr "Gruppi di accesso"
+msgstr "Gruppi d'accesso"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_account_analytic_account_message_needaction
@@ -531,12 +533,12 @@ msgstr "Gruppi di accesso"
 #: model:ir.model.fields,field_description:mail.field_stock_production_lot_message_needaction
 #: model:ir.model.fields,field_description:mail.field_survey_survey_message_needaction
 msgid "Action Needed"
-msgstr "Azione richiesta"
+msgstr "Azione Necessaria"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype_default
 msgid "Activated by default when subscribing."
-msgstr "Attivato in modo predefinito all'iscrizione."
+msgstr "Attivati di default quando sottoscritto."
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_alias_search
@@ -595,20 +597,20 @@ msgstr "Attività"
 #. module: mail
 #: model:ir.model,name:mail.model_mail_activity_mixin
 msgid "Activity Mixin"
-msgstr "Mixin attività"
+msgstr "Combinazione di attività"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_activity_type
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
 msgid "Activity Type"
-msgstr "Tipo di attività"
+msgstr "Tipo di Attività"
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.mail_activity_type_action
 #: model:ir.ui.menu,name:mail.menu_mail_activity_type
 #: model:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Activity Types"
-msgstr "Tipi di attività"
+msgstr "Tipi di Attività"
 
 #. module: mail
 #. openerp-web
@@ -630,7 +632,7 @@ msgstr "Aggiungi"
 #: model:ir.model.fields,field_description:mail.field_ir_act_server_channel_ids
 #, python-format
 msgid "Add Channels"
-msgstr "Aggiungi canali"
+msgstr "Aggiungi Canali"
 
 #. module: mail
 #. openerp-web
@@ -652,7 +654,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_user_signature
 #: model:ir.model.fields,field_description:mail.field_mail_template_user_signature
 msgid "Add Signature"
-msgstr "Aggiungi firma"
+msgstr "Aggiunge Firma"
 
 #. module: mail
 #. openerp-web
@@ -683,7 +685,7 @@ msgstr "Aggiungi un contatto da notificare..."
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_partner_ids
 msgid "Additional Contacts"
-msgstr "Contatti aggiuntivi"
+msgstr "Contatti Aggiuntivi"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_form
@@ -712,12 +714,12 @@ msgstr "Alias"
 #: model:ir.model.fields,field_description:mail.field_mail_test_alias_contact
 #: model:ir.model.fields,field_description:mail.field_res_users_alias_contact
 msgid "Alias Contact Security"
-msgstr "Sicurezza contatto alias"
+msgstr "Alias contatto per la sicurezza"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_config_settings_alias_domain
 msgid "Alias Domain"
-msgstr "Dominio alias"
+msgstr "Dominio Alias"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_alias_alias_name
@@ -725,7 +727,7 @@ msgstr "Dominio alias"
 #: model:ir.model.fields,field_description:mail.field_mail_channel_alias_name
 #: model:ir.model.fields,field_description:mail.field_mail_test_alias_name
 msgid "Alias Name"
-msgstr "Nome alias"
+msgstr "Nome Alias"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_alias_alias_domain
@@ -733,7 +735,7 @@ msgstr "Nome alias"
 #: model:ir.model.fields,field_description:mail.field_mail_channel_alias_domain
 #: model:ir.model.fields,field_description:mail.field_mail_test_alias_domain
 msgid "Alias domain"
-msgstr "Dominio alias"
+msgstr "Dominio Alias"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_alias_alias_model_id
@@ -741,7 +743,7 @@ msgstr "Dominio alias"
 #: model:ir.model.fields,field_description:mail.field_mail_channel_alias_model_id
 #: model:ir.model.fields,field_description:mail.field_mail_test_alias_model_id
 msgid "Aliased Model"
-msgstr "Modello con alias"
+msgstr "Modello Alias"
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.action_view_mail_alias
@@ -786,7 +788,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_model_id
 #: model:ir.model.fields,field_description:mail.field_mail_template_model_id
 msgid "Applies to"
-msgstr "Applicato a"
+msgstr "Applica a"
 
 #. module: mail
 #. openerp-web
@@ -832,12 +834,12 @@ msgstr ""
 #. module: mail
 #: selection:mail.alias,alias_contact:0
 msgid "Authenticated Employees"
-msgstr "Dipendenti autenticati"
+msgstr "Impiegati autenticati"
 
 #. module: mail
 #: selection:mail.alias,alias_contact:0
 msgid "Authenticated Partners"
-msgstr "Partner autenticati"
+msgstr "Partner Autenticati"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_author_id
@@ -871,24 +873,24 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_mail_message_author_avatar
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_author_avatar
 msgid "Author's avatar"
-msgstr "Avatar autore"
+msgstr "Avatar Autore"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_group_public_id
 msgid "Authorized Group"
-msgstr "Gruppo autorizzato"
+msgstr "Gruppo Autorizzato"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_auto_delete
 #: model:ir.model.fields,field_description:mail.field_mail_mail_auto_delete
 #: model:ir.model.fields,field_description:mail.field_mail_template_auto_delete
 msgid "Auto Delete"
-msgstr "Eliminazione automatica"
+msgstr "Eliminazione Automatica"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_group_ids
 msgid "Auto Subscription"
-msgstr "Iscrizione automatica"
+msgstr "Iscrizione Automatica"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_message_subtype_form
@@ -898,7 +900,7 @@ msgstr "Iscrizione automatica"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.res_partner_view_search_inherit_mail
 msgid "Available for mass mailing"
-msgstr "Disponibile per invio e-mail di massa"
+msgstr "Disponibili per campagne marketing"
 
 #. module: mail
 #. openerp-web
@@ -929,7 +931,7 @@ msgstr "Respinte"
 #. module: mail
 #: model:mail.activity.type,name:mail.mail_activity_data_call
 msgid "Call"
-msgstr "Chiamata"
+msgstr "Chiamate"
 
 #. module: mail
 #. openerp-web
@@ -945,7 +947,7 @@ msgstr "Annulla"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_mail_tree
 msgid "Cancel Email"
-msgstr "Annulla e-mail"
+msgstr "Cancella Email"
 
 #. module: mail
 #: selection:mail.mail,state:0
@@ -965,13 +967,13 @@ msgstr "Risposta predefinita / Codice breve"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail_email_cc
 msgid "Carbon copy message recipients"
-msgstr "Destinatari messaggio in copia carbone"
+msgstr "Destinatari CC"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_email_cc
 #: model:ir.model.fields,help:mail.field_mail_template_email_cc
 msgid "Carbon copy recipients (placeholders may be used here)"
-msgstr "Destinatari in copia carbone (sono ammessi segnaposto)"
+msgstr "Destinatari CC (usare espressione)"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_activity_activity_category
@@ -1002,7 +1004,7 @@ msgstr "Modifica"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_field
 msgid "Changed Field"
-msgstr "Campo variato"
+msgstr "Campi variati"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_partner_channel_id
@@ -1014,12 +1016,12 @@ msgstr "Canale"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_channel_message_ids
 msgid "Channel Message"
-msgstr "Messaggio canale"
+msgstr "Messagio di canale"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_channel_type
 msgid "Channel Type"
-msgstr "Tipologia canale"
+msgstr "Tipologia Canale"
 
 #. module: mail
 #. openerp-web
@@ -1144,18 +1146,18 @@ msgstr "Commento"
 #: model:ir.actions.act_window,name:mail.action_email_compose_message_wizard
 #: model:ir.ui.view,arch_db:mail.email_compose_message_wizard_form
 msgid "Compose Email"
-msgstr "Componi e-mail"
+msgstr "Componi email"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_composition_mode
 #: model:ir.model.fields,field_description:mail.field_survey_mail_compose_message_composition_mode
 msgid "Composition mode"
-msgstr "Modalità composizione"
+msgstr "Modo composizione"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Configure your activity types"
-msgstr "Configurazione dei tipi di attività"
+msgstr "Configura i tuoi tipi di attività"
 
 #. module: mail
 #. openerp-web
@@ -2640,7 +2642,6 @@ msgstr "Letto"
 #, python-format
 msgid "Can not update the message or recipient of a notification."
 msgstr ""
-"Impossibile aggiornare il messaggio o il destinatario di una notifica."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_is_subscribed
@@ -3358,7 +3359,7 @@ msgstr "Nuovo canale"
 #: code:addons/mail/static/src/xml/client_action.xml:137
 #, python-format
 msgid "New Message"
-msgstr "Nuovo messaggio"
+msgstr "Nuovo Messaggio"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_new_value_char
@@ -5661,7 +5662,7 @@ msgstr "Sei stato assegnato a "
 #: code:addons/mail/static/src/js/chat_manager.js:588
 #, python-format
 msgid "You have been invited to: %s"
-msgstr "È stato ricevuto un invito per: %s"
+msgstr ""
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_attachment_ids
