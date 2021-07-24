@@ -30,5 +30,4 @@ Re-implement Odoo's file import system:
         'views/base_import_templates.xml',
     ],
     'qweb': ['static/src/xml/base_import.xml'],
-    'license': 'LGPL-3',
 }

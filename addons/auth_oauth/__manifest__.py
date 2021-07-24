@@ -18,5 +18,4 @@ Allow users to login through OAuth2 Provider.
         'views/auth_oauth_templates.xml',
         'security/ir.model.access.csv',
     ],
-    'license': 'LGPL-3',
 }

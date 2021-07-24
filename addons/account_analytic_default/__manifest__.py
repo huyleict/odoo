@@ -25,5 +25,4 @@ Allows to automatically select analytic accounts based on criterions:
         'views/res_config_settings_views.xml',
     ],
     'installable': True,
-    'license': 'LGPL-3',
 }

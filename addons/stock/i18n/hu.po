@@ -10,8 +10,8 @@
 # Tibor Kőnig <konig.tibor@evitalit.hu>, 2018
 # Tamás Belinszky <tamasbelinszky@gmail.com>, 2019
 # gezza <geza.nagy@oregional.hu>, 2020
+# Tamás Németh <ntomasz81@gmail.com>, 2020
 # Ákos Nagy <akos.nagy@oregional.hu>, 2020
-# Tamás Németh <ntomasz81@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -19,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-14 07:33+0000\n"
 "PO-Revision-Date: 2018-08-24 09:25+0000\n"
-"Last-Translator: Tamás Németh <ntomasz81@gmail.com>, 2021\n"
+"Last-Translator: Ákos Nagy <akos.nagy@oregional.hu>, 2020\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -705,7 +705,6 @@ msgstr "Elérhető termékek"
 #, python-format
 msgid "Available quantity should be set to zero before changing type"
 msgstr ""
-"Az elérehtő mennyiséget 0-ra kell állítani a típus megváltoztatása előtt"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__backorder_id
@@ -1692,7 +1691,7 @@ msgstr "Leírás beérkezésekhez"
 #: model:ir.model.fields,field_description:stock.field_product_product__description_pickingout
 #: model:ir.model.fields,field_description:stock.field_product_template__description_pickingout
 msgid "Description on Delivery Orders"
-msgstr "Leírás a szállítólevleken"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__description_picking
@@ -3421,7 +3420,7 @@ msgstr "Új"
 #: code:addons/stock/models/stock_picking.py:612
 #, python-format
 msgid "New Move:"
-msgstr "Új mozgás:"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_change_product_qty__new_quantity
@@ -3745,7 +3744,7 @@ msgstr "Származáshoz visszaszállítási mozgatás"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking__original_location_id
 msgid "Original Location"
-msgstr "Eredeti tárhely"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__move_orig_ids
@@ -4306,7 +4305,7 @@ msgstr "Termék csomagolások"
 #. module: stock
 #: model:ir.model,name:stock.model_product_replenish
 msgid "Product Replenish"
-msgstr "Termék feltöltés"
+msgstr ""
 
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_stock_rule
@@ -4787,13 +4786,13 @@ msgstr "Eltávollítási stratégia %s nincs implementálva."
 #: model:ir.model.fields,field_description:stock.field_product_product__reordering_max_qty
 #: model:ir.model.fields,field_description:stock.field_product_template__reordering_max_qty
 msgid "Reordering Max Qty"
-msgstr "Újrarendelés max menny."
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__reordering_min_qty
 #: model:ir.model.fields,field_description:stock.field_product_template__reordering_min_qty
 msgid "Reordering Min Qty"
-msgstr "Újrarendelés min menny."
+msgstr ""
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.act_stock_warehouse_2_stock_warehouse_orderpoint
@@ -5015,7 +5014,7 @@ msgstr "Szabályok"
 #: model:ir.ui.menu,name:stock.menu_procurement_compute
 #: model_terms:ir.ui.view,arch_db:stock.view_procurement_compute_wizard
 msgid "Run Scheduler"
-msgstr "Ütemező futtatás"
+msgstr ""
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_scheduler_compute
@@ -5025,7 +5024,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_form
 msgid "Run the scheduler"
-msgstr "Ütemező futtatása"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_replenish__date_planned
@@ -5086,7 +5085,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_stock_scrap
 msgid "Scrap products"
-msgstr "Termékek"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__scrapped
@@ -5105,7 +5104,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Scraps"
-msgstr "Selejtek"
+msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_inventory_filter
@@ -5125,7 +5124,7 @@ msgstr "Beszerzés keresése"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_scrap_search_view
 msgid "Search Scrap"
-msgstr "Selejt keresése"
+msgstr ""
 
 #. module: stock
 #: code:addons/stock/models/stock_inventory.py:116

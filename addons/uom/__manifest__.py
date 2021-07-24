@@ -18,5 +18,4 @@ This is the base module for managing Units of measure.
     ],
     'installable': True,
     'auto_install': False,
-    'license': 'LGPL-3',
 }

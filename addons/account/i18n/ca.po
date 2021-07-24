@@ -16,9 +16,9 @@
 # César López Ramírez <cesar.lopez@coopdevs.org>, 2020
 # Josep Sànchez <papapep@gmx.com>, 2020
 # Susanna Pujol, 2020
-# Eugeni Chafer <eugeni@chafer.cat>, 2020
+# Eugeni Chafert <eugeni@chafer.cat>, 2020
+# jabelchi <jabelchi@gmail.com>, 2020
 # Carles Antoli <carlesantoli@hotmail.com>, 2021
-# jabelchi, 2021
 # 
 msgid ""
 msgstr ""
@@ -26,7 +26,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-14 07:33+0000\n"
 "PO-Revision-Date: 2018-08-24 09:14+0000\n"
-"Last-Translator: jabelchi, 2021\n"
+"Last-Translator: Carles Antoli <carlesantoli@hotmail.com>, 2021\n"
 "Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -913,7 +913,7 @@ msgstr ""
 #. module: account
 #: model:ir.model,name:account.model_account_cash_rounding
 msgid "Account Cash Rounding"
-msgstr "Compte d'arrodoniment de caixa"
+msgstr ""
 
 #. module: account
 #: model:ir.model,name:account.model_account_chart_template
@@ -3456,7 +3456,7 @@ msgstr "Crea un model"
 #. module: account
 #: selection:account.setup.bank.manual.config,create_or_link_option:0
 msgid "Create new journal"
-msgstr "Crear un diari nou"
+msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.rounding_list_action
@@ -3602,7 +3602,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_refund__filter_refund
 msgid "Credit Method"
-msgstr "Mètode d'abonament"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_partial_reconcile__credit_move_id
@@ -3900,7 +3900,7 @@ msgstr "Dates"
 #: model:ir.model.fields,field_description:account.field_account_payment_term_line__day_of_the_month
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_line_tree
 msgid "Day of the month"
-msgstr "Dia del mes"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment_term_line__day_of_the_month
@@ -5411,7 +5411,7 @@ msgstr ""
 #: selection:account.invoice,state:0
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_filter
 msgid "In Payment"
-msgstr "En pagament"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:345
@@ -7137,8 +7137,6 @@ msgid ""
 "Note that the easiest way to create a credit note is to do it directly\n"
 "                from the customer invoice."
 msgstr ""
-"Noteu que la manera més facil de crear una factura d'abonament és fer-la directament\n"
-"                des de la factura del client."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_invoice_in_refund
@@ -10322,11 +10320,9 @@ msgstr ""
 #. module: account
 #: code:addons/account/models/account.py:564
 #, python-format
-msgid ""
-"The holder of the bank account of a \"Bank\" type journal must be the company (%s).\n"
-"However, the holder of \"%s\" is \"%s\".\n"
-"Please select another bank account or change the holder of \"%s\"."
+msgid "The holder of a journal's bank account must be the company (%s)."
 msgstr ""
+"El posseïdor d'un compte bancari en un diari te que ser la companyia (%s)."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_line__account_id
@@ -10360,8 +10356,8 @@ msgid ""
 "The last line's computation type should be \"Balance\" to ensure that the "
 "whole amount will be allocated."
 msgstr ""
-"El tipus de l'última línia hauria de ser \"Saldo pendent\" per assegurar que"
-" s'assignarà l'import complet."
+"El tipus de càlcul de l'última línia hauria de ser \"Balanç\" per assegurar "
+"que s'assignarà la quantitat per complet."
 
 #. module: account
 #: code:addons/account/models/company.py:145
@@ -11292,7 +11288,7 @@ msgstr ""
 #: code:addons/account/static/src/xml/bills_tree_upload_views.xml:5
 #, python-format
 msgid "Upload"
-msgstr "Carregar"
+msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_invoice_import_wizard_form_view
@@ -11526,7 +11522,7 @@ msgstr "Factures de proveïdors "
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document
 #, python-format
 msgid "Vendor Credit Note"
-msgstr "Nota d'abonament de proveïdor"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:491
@@ -11562,7 +11558,7 @@ msgstr "Condicions de pagament al proveïdor"
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_search
 msgid "Vendor Payments"
-msgstr "Pagaments de proveïdor"
+msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.invoice_supplier_form
@@ -11592,7 +11588,7 @@ msgstr "Vista"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "View accounts detail"
-msgstr "Veure detall de comptes"
+msgstr ""
 
 #. module: account
 #: selection:res.partner,invoice_warn:0
@@ -11625,7 +11621,7 @@ msgstr "Avisos"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__group_warning_account
 msgid "Warnings in Invoices"
-msgstr "Advertències a les factures"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/company.py:518
@@ -12236,7 +12232,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__invoice_without_email
 msgid "invoice(s) that will not be sent"
-msgstr "factura(es) que no s'enviaran"
+msgstr ""
 
 #. module: account
 #. openerp-web
@@ -12248,12 +12244,12 @@ msgstr ""
 #. module: account
 #: selection:account.payment.term.line,option:0
 msgid "of the current month"
-msgstr "del mes actual"
+msgstr ""
 
 #. module: account
 #: selection:account.payment.term.line,option:0
 msgid "of the following month"
-msgstr "del proper mes"
+msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.invoice_supplier_form

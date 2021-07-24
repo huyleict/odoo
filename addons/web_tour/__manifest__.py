@@ -23,6 +23,5 @@ Odoo Web tours.
     'qweb': [
         "static/src/xml/debug_manager.xml",
     ],
-    'auto_install': True,
-    'license': 'LGPL-3',
+    'auto_install': True
 }

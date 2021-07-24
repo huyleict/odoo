@@ -27,5 +27,4 @@
         "data/account.fiscal.position.tax.template.csv",
         "data/account_chart_template_data.xml",
     ],
-    'license': 'LGPL-3',
 }

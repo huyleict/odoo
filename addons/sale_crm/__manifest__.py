@@ -24,5 +24,4 @@ modules.
         'views/crm_lead_views.xml',
     ],
     'auto_install': True,
-    'license': 'LGPL-3',
 }

@@ -10,9 +10,7 @@
 # Martin Trigaux, 2018
 # Arma Gedonsky <armagedonsky@hot.ee>, 2018
 # Eneli Õigus <enelioigus@gmail.com>, 2018
-# Martin Talts <martin.t@avalah.ee>, 2021
-# Piia Paurson <piia@avalah.ee>, 2021
-# Triine Aavik <triine@avalah.ee>, 2021
+# Piia Paurson <piia@avalah.ee>, 2020
 # 
 msgid ""
 msgstr ""
@@ -20,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-14 07:35+0000\n"
 "PO-Revision-Date: 2018-08-24 09:33+0000\n"
-"Last-Translator: Triine Aavik <triine@avalah.ee>, 2021\n"
+"Last-Translator: Piia Paurson <piia@avalah.ee>, 2020\n"
 "Language-Team: Estonian (https://www.transifex.com/odoo/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -348,7 +346,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:364
 #, python-format
 msgid "Cover"
-msgstr "Kaas"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub__create_uid
@@ -504,7 +502,7 @@ msgstr "Fail / Pilt"
 #: code:addons/web_editor/static/src/xml/editor.xml:273
 #, python-format
 msgid "Flat"
-msgstr "Lame"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -560,7 +558,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:998
 #, python-format
 msgid "Font Size"
-msgstr "Fondi suurus"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -593,7 +591,7 @@ msgstr ""
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_http
 msgid "HTTP Routing"
-msgstr "HTTP Routing"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -649,7 +647,7 @@ msgstr "Abi"
 #: code:addons/web_editor/static/src/xml/translator.xml:5
 #, python-format
 msgid "Here are the visuals used to help you translate efficiently:"
-msgstr "Need visuaalid on teile efektiivsel tõlkel abiks:"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -747,8 +745,6 @@ msgid ""
 "In this mode, you can only translate texts. To change the structure of the page, you must edit the master page.\n"
 "        Each modification on the master page is automatically applied to all translated versions."
 msgstr ""
-"Selles režiimis saate ainult teksti tõlkida. Lehe struktuuri muutmiseks peate te muutma peamist lehte. \n"
-"Iga peamisel lehel tehtud muudatus lisatakse automaatselt kõikidele tõlgitud versioonidele."
 
 #. module: web_editor
 #. openerp-web
@@ -984,7 +980,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:270
 #, python-format
 msgid "Outline"
-msgstr "Raam"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -998,7 +994,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:154
 #, python-format
 msgid "Padding"
-msgstr "Täitmine"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1047,34 +1043,32 @@ msgstr "Pakkumus"
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb
 msgid "Qweb"
-msgstr "Qweb"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field
 msgid "Qweb Field"
 msgstr ""
-"2689\n"
-"Qweb Väli"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_contact
 msgid "Qweb Field Contact"
-msgstr "Qweb Kontakti väli"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_date
 msgid "Qweb Field Date"
-msgstr "Qweb Kuupäeva Väli"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_datetime
 msgid "Qweb Field Datetime"
-msgstr "Qweb Kuupäev/kellaaaeg väli"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_duration
 msgid "Qweb Field Duration"
-msgstr "Gweb kestvus Väli"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_float
@@ -1084,12 +1078,12 @@ msgstr ""
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_html
 msgid "Qweb Field HTML"
-msgstr "Qweb HTML Väli"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_image
 msgid "Qweb Field Image"
-msgstr "Qweb Pildi Väli"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_integer
@@ -1100,8 +1094,6 @@ msgstr ""
 #: model:ir.model,name:web_editor.model_ir_qweb_field_many2one
 msgid "Qweb Field Many to One"
 msgstr ""
-"2700\n"
-"Qweb Many to One väli"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_qweb_field_monetary
@@ -1259,7 +1251,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:271
 #, python-format
 msgid "Rounded"
-msgstr "Ümardatud"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1516,7 +1508,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:44
 #, python-format
 msgid "Tooltip"
-msgstr "Vihje"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1530,14 +1522,14 @@ msgstr "Tõlgi"
 #: code:addons/web_editor/static/src/js/editor/translator.js:54
 #, python-format
 msgid "Translate Attribute"
-msgstr "Tõlgi atribuut"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/translator.xml:8
 #, python-format
 msgid "Translated content"
-msgstr "Tõlgitud sisu"
+msgstr ""
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_translation
@@ -1549,7 +1541,7 @@ msgstr "Tõlge"
 #: code:addons/web_editor/static/src/js/editor/translator.js:95
 #, python-format
 msgid "Translation Info"
-msgstr "Tõlgitud informatsioon"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
@@ -1706,7 +1698,7 @@ msgstr "Xl"
 #: code:addons/web_editor/static/src/xml/translator.xml:4
 #, python-format
 msgid "You are about to enter the translation mode."
-msgstr "Te sisenete tõlkerežiimi."
+msgstr ""
 
 #. module: web_editor
 #. openerp-web

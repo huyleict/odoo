@@ -14,5 +14,4 @@ Enable UTM trackers in shared links.
     ],
     'demo': [],
     'auto_install': False,
-    'license': 'LGPL-3',
 }

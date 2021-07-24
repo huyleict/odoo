@@ -13,5 +13,4 @@ Allows users to send invoices by post
         'wizard/account_invoice_send_views.xml',
     ],
     'auto_install': True,
-    'license': 'LGPL-3',
 }

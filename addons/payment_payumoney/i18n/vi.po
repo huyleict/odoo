@@ -5,8 +5,7 @@
 # Translators:
 # Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2018
 # Duy BQ <duybq86@gmail.com>, 2018
-# Dung Nguyen Thi <dungnt@trobz.com>, 2019
-# Trần Hà <tranthuha13590@gmail.com>, 2021
+# Christine Nguyen <dungnt@trobz.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -14,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 09:49+0000\n"
 "PO-Revision-Date: 2018-08-24 09:22+0000\n"
-"Last-Translator: Trần Hà <tranthuha13590@gmail.com>, 2021\n"
+"Last-Translator: Christine Nguyen <dungnt@trobz.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,12 +44,12 @@ msgstr "Cấu hình thủ công"
 #. module: payment_payumoney
 #: model:ir.model.fields,field_description:payment_payumoney.field_payment_acquirer__payumoney_merchant_key
 msgid "Merchant Key"
-msgstr "Merchant Key"
+msgstr ""
 
 #. module: payment_payumoney
 #: model:ir.model.fields,field_description:payment_payumoney.field_payment_acquirer__payumoney_merchant_salt
 msgid "Merchant Salt"
-msgstr "Merchant Salt"
+msgstr ""
 
 #. module: payment_payumoney
 #: selection:payment.acquirer,provider:0
@@ -66,19 +65,19 @@ msgstr "PayUmoney"
 #: code:addons/payment_payumoney/models/payment.py:108
 #, python-format
 msgid "PayUmoney: invalid shasign, received %s, computed %s, for data %s"
-msgstr "PayUmoney: invalid shasign, received %s, computed %s, for data %s"
+msgstr ""
 
 #. module: payment_payumoney
 #: code:addons/payment_payumoney/models/payment.py:102
 #, python-format
 msgid "PayUmoney: received data for reference %s; multiple orders found"
-msgstr "PayUmoney: received data for reference %s; multiple orders found"
+msgstr ""
 
 #. module: payment_payumoney
 #: code:addons/payment_payumoney/models/payment.py:99
 #, python-format
 msgid "PayUmoney: received data for reference %s; no order found"
-msgstr "PayUmoney: received data for reference %s; no order found"
+msgstr ""
 
 #. module: payment_payumoney
 #: code:addons/payment_payumoney/models/payment.py:94

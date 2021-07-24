@@ -30,5 +30,4 @@
         'views/report_payslipdetails_templates.xml',
     ],
     'demo': ['data/hr_payroll_demo.xml'],
-    'license': 'LGPL-3',
 }

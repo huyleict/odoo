@@ -1344,7 +1344,7 @@ registry.many2one = SnippetOption.extend({
                     });
                 });
         } else {
-            self.$target.text($li.data('name'));
+            self.$target.html($li.data('name'));
         }
 
         _.defer(function () {

@@ -25,5 +25,4 @@ Belgian Payroll Rules.
         'data/l10n_be_hr_payroll_data.xml',
         'data/hr.salary.rule.csv',
     ],
-    'license': 'LGPL-3',
 }

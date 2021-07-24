@@ -36,7 +36,6 @@
 # Maksym <ms@myodoo.pl>, 2020
 # Wojciech Wrzeszcz <wojciech.wrze@gmail.com>, 2020
 # Jan Dziurz <jan.dziurzynski@openglobe.pl>, 2020
-# Piotr Strębski <strebski@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -44,7 +43,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-14 07:33+0000\n"
 "PO-Revision-Date: 2018-08-24 09:14+0000\n"
-"Last-Translator: Piotr Strębski <strebski@gmail.com>, 2021\n"
+"Last-Translator: Jan Dziurz <jan.dziurzynski@openglobe.pl>, 2020\n"
 "Language-Team: Polish (https://www.transifex.com/odoo/teams/41243/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2018,7 +2017,7 @@ msgstr "Automatyczne wykrywanie"
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__auto_reconcile
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model_template__auto_reconcile
 msgid "Auto-validate"
-msgstr "Automatycznie zweryfikuj"
+msgstr ""
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -2390,7 +2389,7 @@ msgstr "Faktury do zapłaty"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Bills to Validate"
-msgstr "Rachunki do zweryfikowania"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_journal_dashboard.py:178
@@ -3296,7 +3295,7 @@ msgstr ""
 #: code:addons/account/models/company.py:276
 #, python-format
 msgid "Create a Bank Account"
-msgstr "Utwórz konto bankowe"
+msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_bank_journal_form
@@ -3362,7 +3361,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_tax_form
 msgid "Create a new tax"
-msgstr "Utwórz nowy podatek"
+msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_invoice_in_refund
@@ -3403,7 +3402,7 @@ msgstr "Utwórz model"
 #. module: account
 #: selection:account.setup.bank.manual.config,create_or_link_option:0
 msgid "Create new journal"
-msgstr "Utwórz nowy dziennik"
+msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.rounding_list_action
@@ -5609,7 +5608,7 @@ msgstr "Niepoprawny zakres do kompresji, skonfiguruj go poprawnie."
 #: code:addons/account/models/company.py:106
 #, python-format
 msgid "Invalid fiscal year last day"
-msgstr "Nieprawidłowy rok podatkowy ostatniego dnia"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account_invoice.py:1351
@@ -5817,7 +5816,7 @@ msgstr "Faktury ci należne"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 msgid "Invoices to Validate"
-msgstr "Faktury do zweryfikowania"
+msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__reconciled_invoice_ids
@@ -10324,11 +10323,8 @@ msgstr ""
 #. module: account
 #: code:addons/account/models/account.py:564
 #, python-format
-msgid ""
-"The holder of the bank account of a \"Bank\" type journal must be the company (%s).\n"
-"However, the holder of \"%s\" is \"%s\".\n"
-"Please select another bank account or change the holder of \"%s\"."
-msgstr ""
+msgid "The holder of a journal's bank account must be the company (%s)."
+msgstr "Posiadaczem konta bankowego dziennika musi być firma (%s)."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_line__account_id
@@ -10811,7 +10807,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.open_account_journal_dashboard_kanban
 msgid "This is the accounting dashboard"
-msgstr "To jest konsola księgowania"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/account.py:620
@@ -11631,7 +11627,7 @@ msgstr "Ostrzeżenia"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__group_warning_account
 msgid "Warnings in Invoices"
-msgstr "Ostrzeżenia w fakturach"
+msgstr ""
 
 #. module: account
 #: code:addons/account/models/company.py:518

@@ -21,5 +21,4 @@ It is responsible of comments moderation for published documents (forum, slides,
     ],
     'installable': True,
     'auto_install': True,
-    'license': 'LGPL-3',
 }

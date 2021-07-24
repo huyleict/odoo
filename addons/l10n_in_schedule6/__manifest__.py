@@ -31,5 +31,4 @@ Sheet, now only Vertical format has been permitted Which is Supported By OpenERP
     ],
     'auto_install': False,
     'installable': True,
-    'license': 'LGPL-3',
 }

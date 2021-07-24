@@ -23,5 +23,4 @@ Thai accounting chart and localization.
         'data/account_chart_template_data.xml',
     ],
     'post_init_hook': '_preserve_tag_on_taxes',
-    'license': 'LGPL-3',
 }

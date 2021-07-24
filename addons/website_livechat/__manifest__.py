@@ -19,5 +19,4 @@ Allow website visitors to chat with the collaborators. This module also brings a
         'security/website_livechat.xml',
         'data/website_livechat_data.xml',
     ],
-    'license': 'LGPL-3',
 }

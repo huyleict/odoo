@@ -161,7 +161,6 @@ function getMatchedCSSRules(a) {
         delete style['text-decoration-line'];
         delete style['text-decoration-color'];
         delete style['text-decoration-style'];
-        delete style['text-decoration-thickness'];
     }
 
     // text-align inheritance does not seem to get past <td> elements on some

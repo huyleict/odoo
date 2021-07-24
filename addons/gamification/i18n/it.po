@@ -174,8 +174,6 @@ msgid ""
 "<br/>Special rewards were sent to the top competing users. The ranking for "
 "this challenge is :"
 msgstr ""
-"<br/>Sono stati inviati premi speciali ai migliori utenti in gara. La "
-"classifica della sfida è :"
 
 #. module: gamification
 #: model:mail.template,body_html:gamification.email_template_goal_reminder
@@ -436,9 +434,6 @@ msgid ""
 "                It can be deserved automatically when some conditions are met or manually by users.\n"
 "                Some badges are harder than others to get with specific conditions."
 msgstr ""
-"Un riconoscimento è regalo simbolico assegnato a un utente a titolo di gratifica.\n"
-"                Può essere riconosciuto in modo automatico, al verificarsi di alcune condizioni, o manuale da parte degli utenti.\n"
-"                Alcuni possiedono condizioni specifiche e sono più difficili da ottenere rispetto ad altri."
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.goal_definition_list_action
@@ -520,9 +515,6 @@ msgid ""
 "                The challenge can use a period (weekly, monthly...) for automatic creation of goals.\n"
 "                The goals are created for the specified users or member of the group."
 msgstr ""
-"Assegna un elenco di obiettivi per valutare utenti selezionati.\n"
-"                La sfida può utilizzare un periodo (settimanale, mensile...) per creare gli obiettivi in modo automatico.\n"
-"                Vengono creati per gli utenti o gli iscritti al gruppo specificati."
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__message_attachment_count
@@ -594,10 +586,6 @@ msgid ""
 "end date of a challenge (if no periodicity is set) or when the challenge is "
 "manually closed."
 msgstr ""
-"I riconoscimenti vengono assegnati al termine di una sfida. Alla fine di "
-"periodo in corso (es.: fine del mese per una sfida mensile), alla data di "
-"termine della sfida (se non viene impostata alcuna periodicità) oppure "
-"quando viene chiusa in modo manuale."
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__batch_mode
@@ -683,8 +671,6 @@ msgstr "Sfide"
 #: model:ir.model.fields,help:gamification.field_gamification_badge__rule_max
 msgid "Check to set a monthly limit per person of sending this badge"
 msgstr ""
-"Controllo per impostare un limite mensile, a persona, per l'invio del "
-"riconoscimento"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
@@ -880,7 +866,7 @@ msgstr "Visualizzato come"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__batch_distinctive_field
 msgid "Distinctive field for batch user"
-msgstr "Campo distintivo per l'utente nel gruppo"
+msgstr ""
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__domain
@@ -889,10 +875,6 @@ msgid ""
 "[('state', '=', 'done')]. The expression can contain reference to 'user' "
 "which is a browse record of the current user if not in batch mode."
 msgstr ""
-"Dominio per filtrare i record. Regola generale che non dipende dall'utente, "
-"es. [('state', '=', 'done')]. L'espressione può contenere un riferimento a "
-"'user' come \"browse\" dell'utente corrente, se al di fuori della modalità "
-"raggruppata."
 
 #. module: gamification
 #: selection:gamification.challenge,state:0
@@ -918,7 +900,6 @@ msgstr "Data fine"
 #: model:ir.model.fields,help:gamification.field_gamification_goal_definition__batch_mode
 msgid "Evaluate the expression in batch instead of once for each user"
 msgstr ""
-"Valuta l'espressione in gruppo al posto di una volta per ciascun utente"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__batch_user_expression
@@ -1053,7 +1034,7 @@ msgstr "Obiettivo generico di gamification per sfida"
 #: model:ir.cron,cron_name:gamification.ir_cron_check_challenge
 #: model:ir.cron,name:gamification.ir_cron_check_challenge
 msgid "Gamification: Goal Challenge Check"
-msgstr "Gamification: controllo obiettivo per sfida"
+msgstr ""
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_wizard__goal_id
@@ -1268,9 +1249,6 @@ msgid ""
 "for a while (defined in challenge). Ignored in case of non-manual goal or "
 "goal not linked to a challenge."
 msgstr ""
-"In caso di obiettivi manuali, i promemoria vengono inviati se l'obiettivo "
-"non viene aggiornato da un po' di tempo (indicato nella sfida). Vengono "
-"ignorati in presenza di obiettivi non manuali o non collegati a una sfida."
 
 #. module: gamification
 #: selection:gamification.goal,state:0
@@ -1343,12 +1321,12 @@ msgstr "Ultimo aggiornamento il"
 #. module: gamification
 #: selection:gamification.challenge,visibility_mode:0
 msgid "Leader Board (Group Ranking)"
-msgstr "Classifica (graduatoria di gruppo)"
+msgstr ""
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__rule_max_number
 msgid "Limitation Number"
-msgstr "Numero limite"
+msgstr ""
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -1438,7 +1416,7 @@ msgstr "I miei obiettivi"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__stat_my_monthly_sending
 msgid "My Monthly Sending Total"
-msgstr "Il mio totale inviato mensile"
+msgstr ""
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__stat_my_this_month
@@ -1464,7 +1442,6 @@ msgstr "Mai"
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__remind_update_delay
 msgid "Never reminded if no value or zero is specified."
 msgstr ""
-"Nessun promemoria se non viene specificato alcun valore oppure è zero."
 
 #. module: gamification
 #: model:mail.template,subject:gamification.email_template_badge_received
@@ -1510,7 +1487,7 @@ msgstr "Non ricorrente"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__remind_update_delay
 msgid "Non-updated manual goals will be reminded after"
-msgstr "Promemoria obiettivi manuali non aggiornati dopo"
+msgstr ""
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -1555,7 +1532,7 @@ msgstr "Numero di utenti"
 #. module: gamification
 #: selection:gamification.challenge,report_message_frequency:0
 msgid "On change"
-msgstr "Su variazione"
+msgstr ""
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__rule_auth_badge_ids
@@ -1671,12 +1648,12 @@ msgstr "Nome utente collegato per gestire l'accesso alla risorsa."
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__remaining_sending
 msgid "Remaining Sending Allowed"
-msgstr "Invii consentiti residui"
+msgstr ""
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__remind_update_delay
 msgid "Remind delay"
-msgstr "Ritardo promemoria"
+msgstr ""
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -1713,8 +1690,6 @@ msgstr "Responsabile"
 #, python-format
 msgid "Retrieving progress for personal challenge without user information"
 msgstr ""
-"Mancano le informazioni utente nel recupero degli sviluppi della sfida "
-"personale"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -1782,8 +1757,6 @@ msgid ""
 "Security rules to define who is allowed to manually grant badges. Not "
 "enforced for administrator."
 msgstr ""
-"Regole di sicurezza che definiscono chi è autorizzato ad assegnare "
-"riconoscimenti manuali. Non si applicano all'amministratore."
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -1928,9 +1901,6 @@ msgid ""
 "The day a new challenge will be automatically closed. If no periodicity is "
 "set, will use this date as the goal end date."
 msgstr ""
-"Giorno in cui viene chiusa automaticamente una nuova sfida. Se non è "
-"impostata alcuna periodicità, viene usato come data di termine "
-"dell'obiettivo."
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__start_date
@@ -1938,8 +1908,6 @@ msgid ""
 "The day a new challenge will be automatically started. If no periodicity is "
 "set, will use this date as the goal start date."
 msgstr ""
-"Giorno in cui viene avviata automaticamente una nuova sfida. Se non è "
-"impostata alcuna periodicità, viene usato come data di avvio dell'obiettivo."
 
 #. module: gamification
 #: code:addons/gamification/models/goal.py:93
@@ -1975,7 +1943,7 @@ msgstr "Valori più alti sono considerati migliori"
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__owner_ids
 msgid "The list of instances of this badge granted to users"
-msgstr "Elenco delle istanze del riconoscimento assegnato agli utenti"
+msgstr ""
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__unique_owner_ids
@@ -2028,9 +1996,6 @@ msgid ""
 "The number of days after which the user assigned to a manual goal will be "
 "reminded. Never reminded if no value is specified."
 msgstr ""
-"Numero di giorni dopo i quali all'utente assegnato a un obiettivo manuale, "
-"viene ricordato l'obiettivo stesso. Se non viene specificato alcun valore "
-"non viene mai ricordato."
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_my_this_month
@@ -2048,14 +2013,11 @@ msgstr "Il numero di volte che l'utente corrente ha ricevuto questo badge."
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_my_monthly_sending
 msgid "The number of time the current user has sent this badge this month."
 msgstr ""
-"Numero di volte in cui l'utente attuale ha inviato il riconoscimento nel "
-"mese in corso."
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_count_distinct
 msgid "The number of time this badge has been received by unique users."
 msgstr ""
-"Numero di volte in cui il riconoscimento è stato ricevuto da utenti univoci."
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__stat_this_month
@@ -2105,9 +2067,6 @@ msgid ""
 "reference to 'user' which is a browse record of the current user, e.g. "
 "user.id, user.partner_id.id..."
 msgstr ""
-"Valore da confrontare con il campo distintivo. L'espressione può contenere "
-"un riferimento a 'user', record browse dell'utente corrente, es. user.id, "
-"user.partner_id.id..."
 
 #. module: gamification
 #: model_terms:ir.actions.act_window,help:gamification.goals_from_challenge_act
@@ -2148,7 +2107,7 @@ msgstr "Da raggiungere"
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__to_update
 msgid "To update"
-msgstr "Da aggiornare"
+msgstr ""
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__stat_count
@@ -2232,7 +2191,7 @@ msgstr "Settimanale"
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__rule_auth
 msgid "Who can grant this badge"
-msgstr "Indica chi può assegnare il riconoscimento"
+msgstr ""
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.view_badge_wizard_grant
@@ -2245,8 +2204,6 @@ msgid ""
 "With this option enabled, a user can receive a badge only once. The top 3 "
 "badges are still rewarded only at the end of the challenge."
 msgstr ""
-"Abilitando l'opzione, un utente può ricevere un riconoscimento solo una "
-"volta. I 3 più importanti vengono comunque assegnati al termine della sfida."
 
 #. module: gamification
 #: model:gamification.badge,description:gamification.badge_idea
@@ -2269,7 +2226,7 @@ msgstr "Non sei presente nell'elenco degli utenti autorizzati."
 #: code:addons/gamification/wizard/grant_badge.py:25
 #, python-format
 msgid "You can not grant a badge to yourself."
-msgstr "Impossibile assegnare un riconoscimento a se stessi."
+msgstr ""
 
 #. module: gamification
 #: code:addons/gamification/models/challenge.py:196
@@ -2280,7 +2237,7 @@ msgstr "Non puoi azzerare una sfida con obiettivi non completati."
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
 msgid "You can still grant"
-msgstr "Questo mese possono ancora essere assegnati"
+msgstr ""
 
 #. module: gamification
 #: model:gamification.badge,description:gamification.badge_good_job
@@ -2291,18 +2248,18 @@ msgstr "Hai fatto un ottimo lavoro."
 #: code:addons/gamification/models/badge.py:212
 #, python-format
 msgid "You do not have the required badges."
-msgstr "Non possiedi i riconoscimenti necessari."
+msgstr ""
 
 #. module: gamification
 #: code:addons/gamification/models/badge.py:214
 #, python-format
 msgid "You have already sent this badge too many time this month."
-msgstr "Riconoscimento inviato già troppe volte nel mese corrente."
+msgstr ""
 
 #. module: gamification
 #: model:gamification.badge,description:gamification.badge_hidden
 msgid "You have found the hidden badge"
-msgstr "Hai trovato il riconoscimento nascosto"
+msgstr ""
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
@@ -2342,7 +2299,7 @@ msgstr "es. user.partner_id.id"
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view
 msgid "granted,"
-msgstr "assegnati,"
+msgstr ""
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
@@ -2357,7 +2314,7 @@ msgstr "rispetto al traguardo."
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_user_kanban_view
 msgid "the"
-msgstr "il"
+msgstr ""
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view

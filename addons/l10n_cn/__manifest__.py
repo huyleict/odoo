@@ -29,5 +29,4 @@ State Data/省份数据
         'data/account_account_type_data.xml',
         'data/account_tax_group_data.xml',
     ],
-    'license': 'LGPL-3',
 }

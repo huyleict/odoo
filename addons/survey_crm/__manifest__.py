@@ -15,6 +15,5 @@ This module adds a Survey mass mailing button inside the more option of lead/cus
         'views/survey_crm_views.xml',
     ],
     'installable': True,
-    'auto_install': True,
-    'license': 'LGPL-3',
+    'auto_install': True
 }

@@ -22,5 +22,4 @@ associated to every resource. It also manages the leaves of every resource.
     ],
     'demo': [
     ],
-    'license': 'LGPL-3',
 }

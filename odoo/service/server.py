@@ -20,7 +20,6 @@ import unittest
 import psutil
 import werkzeug.serving
 from werkzeug.debug import DebuggedApplication
-from odoo.tests.common import OdooSuite
 
 if os.name == 'posix':
     # Unix only for workers
@@ -291,7 +290,6 @@ class FSWatcherInotify(FSWatcherBase):
     def stop(self):
         self.started = False
         self.thread.join()
-        del self.watcher  # ensures inotify watches are freed up before reexec
 
 
 #----------------------------------------------------------
@@ -1138,9 +1136,9 @@ def load_test_file_py(registry, test_file):
             for mod_mod in get_test_modules(mod):
                 mod_path, _ = os.path.splitext(getattr(mod_mod, '__file__', ''))
                 if test_path == mod_path:
-                    tests = odoo.modules.module.unwrap_suite(
-                        unittest.TestLoader().loadTestsFromModule(mod_mod))
-                    suite = OdooSuite(tests)
+                    suite = unittest.TestSuite()
+                    for t in unittest.TestLoader().loadTestsFromModule(mod_mod):
+                        suite.addTest(t)
                     _logger.log(logging.INFO, 'running tests %s.', mod_mod.__name__)
                     stream = odoo.modules.module.TestStream()
                     result = unittest.TextTestRunner(verbosity=2, stream=stream).run(suite)

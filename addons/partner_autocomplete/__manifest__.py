@@ -24,5 +24,4 @@
         'static/src/xml/partner_autocomplete.xml',
     ],
     'auto_install': True,
-    'license': 'LGPL-3',
 }

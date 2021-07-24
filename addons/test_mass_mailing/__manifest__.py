@@ -17,5 +17,4 @@ test_mail. """,
     ],
     'installable': True,
     'application': False,
-    'license': 'LGPL-3',
 }

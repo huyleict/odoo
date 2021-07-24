@@ -20,5 +20,4 @@ Badge received are displayed on the user profile.
         'views/gamification_templates.xml',
     ],
     'auto_install': True,
-    'license': 'LGPL-3',
 }

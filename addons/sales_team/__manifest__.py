@@ -20,5 +20,4 @@ Using this application you can manage Sales Teams  with CRM and/or Sales
     'demo': ['data/sales_team_demo.xml'],
     'installable': True,
     'auto_install': False,
-    'license': 'LGPL-3',
 }

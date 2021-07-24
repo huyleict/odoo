@@ -6,7 +6,6 @@
 # Martin Trigaux, 2018
 # Minh Nguyen <ndminh210994@gmail.com>, 2018
 # Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2020
-# Trần Hà <tranthuha13590@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -14,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 06:49+0000\n"
 "PO-Revision-Date: 2018-08-24 09:18+0000\n"
-"Last-Translator: Trần Hà <tranthuha13590@gmail.com>, 2021\n"
+"Last-Translator: Nancy Momoland <thanhnguyen.icsc@gmail.com>, 2020\n"
 "Language-Team: Vietnamese (https://www.transifex.com/odoo/teams/41243/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,27 +31,21 @@ msgid ""
 "                                - If you don't select \"Share with all users\", link of google document in \"More\" options will not appear for other users in opportunities of Sales Department.<br/>\n"
 "                                - If filter is not specified, link of google document will appear in \"More\" option for all users for all opportunities."
 msgstr ""
-"<b>To create a new filter:</b><br/>\n"
-"                                - Go to the Odoo document you want to filter. For instance, go to Opportunities and search on Sales Department.<br/>\n"
-"                                - In this \"Search\" view, select the option \"Save Current Filter\", enter the name (Ex: Sales Department)<br/>\n"
-"                                - If you select \"Share with all users\", link of google document in \"More\" options will appear for all users in opportunities of Sales Department.<br/>\n"
-"                                - If you don't select \"Share with all users\", link of google document in \"More\" options will not appear for other users in opportunities of Sales Department.<br/>\n"
-"                                - If filter is not specified, link of google document will appear in \"More\" option for all users for all opportunities."
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_kanban
 msgid "<strong>Active</strong>"
-msgstr "<strong>Active</strong>"
+msgstr ""
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_kanban
 msgid "<strong>Model</strong>"
-msgstr "<strong>Model</strong>"
+msgstr ""
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_kanban
 msgid "<strong>Template</strong>"
-msgstr "<strong>Template</strong>"
+msgstr ""
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__active
@@ -62,18 +55,18 @@ msgstr "Có hiệu lực"
 #. module: google_drive
 #: model_terms:ir.actions.act_window,help:google_drive.action_google_drive_users_config
 msgid "Add a new template"
-msgstr "Add a new template"
+msgstr ""
 
 #. module: google_drive
 #: code:addons/google_drive/models/google_drive.py:42
 #, python-format
 msgid "At least one key cannot be found in your Google Drive name pattern."
-msgstr "At least one key cannot be found in your Google Drive name pattern."
+msgstr ""
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_res_config_settings__google_drive_authorization_code
 msgid "Authorization Code"
-msgstr "Authorization Code"
+msgstr ""
 
 #. module: google_drive
 #: model:ir.model.fields,help:google_drive.field_google_drive_config__name_template
@@ -81,8 +74,6 @@ msgid ""
 "Choose how the new google drive will be named, on google side. Eg. "
 "gdoc_%(field_name)s"
 msgstr ""
-"Choose how the new google drive will be named, on google side. Eg. "
-"gdoc_%(field_name)s"
 
 #. module: google_drive
 #: model:ir.model,name:google_drive.model_res_config_settings
@@ -103,7 +94,7 @@ msgstr "Thời điểm tạo"
 #: code:addons/google_drive/models/google_drive.py:161
 #, python-format
 msgid "Creating google drive may only be done by one at a time."
-msgstr "Creating google drive may only be done by one at a time."
+msgstr ""
 
 #. module: google_drive
 #: code:addons/google_drive/models/google_drive.py:161
@@ -138,23 +129,23 @@ msgstr "Đi tới bảng cấu hình"
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__google_drive_client_id
 msgid "Google Client"
-msgstr "Google Client"
+msgstr ""
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_form
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_tree
 msgid "Google Drive Configuration"
-msgstr "Google Drive Configuration"
+msgstr ""
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__name_template
 msgid "Google Drive Name Pattern"
-msgstr "Google Drive Name Pattern"
+msgstr ""
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.res_config_settings_view_form
 msgid "Google Drive Templates"
-msgstr "Google Drive Templates"
+msgstr ""
 
 #. module: google_drive
 #: code:addons/google_drive/models/google_drive.py:63
@@ -162,12 +153,11 @@ msgstr "Google Drive Templates"
 #, python-format
 msgid "Google Drive is not yet configured. Please contact your administrator."
 msgstr ""
-"Google Drive is not yet configured. Please contact your administrator."
 
 #. module: google_drive
 #: model:ir.model,name:google_drive.model_google_drive_config
 msgid "Google Drive templates config"
-msgstr "Google Drive templates config"
+msgstr ""
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__id
@@ -198,11 +188,6 @@ msgid ""
 "checklist for each order in a foreign country, ... Its very easy to manage "
 "them, link them to Odoo and use them to collaborate with your employees."
 msgstr ""
-"Link your own google drive templates to any record of Odoo. If you have "
-"really specific documents you want your collaborator fill in, e.g. Use a "
-"spreadsheet to control the quality of your product or review the delivery "
-"checklist for each order in a foreign country, ... Its very easy to manage "
-"them, link them to Odoo and use them to collaborate with your employees."
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__model_id
@@ -213,7 +198,7 @@ msgstr "Đối tượng"
 #: code:addons/google_drive/models/google_drive.py:203
 #, python-format
 msgid "Please enter a valid Google Document URL."
-msgstr "Please enter a valid Google Document URL."
+msgstr ""
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__model
@@ -232,8 +217,6 @@ msgid ""
 "Something went wrong during the token generation. Please request again an "
 "authorization code ."
 msgstr ""
-"Something went wrong during the token generation. Please request again an "
-"authorization code ."
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__name
@@ -243,7 +226,7 @@ msgstr "Tên mẫu"
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__google_drive_template_url
 msgid "Template URL"
-msgstr "Template URL"
+msgstr ""
 
 #. module: google_drive
 #: model:ir.actions.act_window,name:google_drive.action_google_drive_users_config
@@ -254,12 +237,12 @@ msgstr "Các mẫu"
 #: code:addons/google_drive/models/google_drive.py:99
 #, python-format
 msgid "The Google Template cannot be found. Maybe it has been deleted."
-msgstr "The Google Template cannot be found. Maybe it has been deleted."
+msgstr ""
 
 #. module: google_drive
 #: model:ir.model.fields,help:google_drive.field_res_config_settings__google_drive_uri
 msgid "The URL to generate the authorization code from Google"
-msgstr "The URL to generate the authorization code from Google"
+msgstr ""
 
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_form
@@ -269,10 +252,6 @@ msgid ""
 "                                in the Google Drive name field, the document in your Google Drive and in Odoo attachment will be named\n"
 "                                'Deco_Addict_SO0001_Sales'."
 msgstr ""
-"The name of the attached document can use fixed or variable data. To distinguish between documents in\n"
-"                                Google Drive, use fixed words and fields. For instance, in the example above, if you wrote Deco_Addict_%(name)s_Sales\n"
-"                                in the Google Drive name field, the document in your Google Drive and in Odoo attachment will be named\n"
-"                                'Deco_Addict_SO0001_Sales'."
 
 #. module: google_drive
 #: code:addons/google_drive/models/google_drive.py:135
@@ -281,13 +260,11 @@ msgid ""
 "The permission 'reader' for 'anyone with the link' has not been written on "
 "the document"
 msgstr ""
-"The permission 'reader' for 'anyone with the link' has not been written on "
-"the document"
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_res_config_settings__google_drive_uri
 msgid "URI"
-msgstr "URI"
+msgstr ""
 
 #. module: google_drive
 #: code:addons/google_drive/models/google_drive.py:60
@@ -302,4 +279,3 @@ msgstr ""
 msgid ""
 "https://docs.google.com/document/d/1vOtpJK9scIQz6taD9tJRIETWbEw3fSiaQHArsJYcua4/edit"
 msgstr ""
-"https://docs.google.com/document/d/1vOtpJK9scIQz6taD9tJRIETWbEw3fSiaQHArsJYcua4/edit"

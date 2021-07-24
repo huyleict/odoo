@@ -20,5 +20,4 @@ OFX and QIF imports are available in Enterprise version.""",
     ],
     'installable': True,
     'auto_install': True,
-    'license': 'LGPL-3',
 }

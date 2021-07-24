@@ -27,5 +27,4 @@ Greek accounting chart and localization.
               'data/account_tax_data.xml',
               'data/account_chart_template_configure_data.xml'
     ],
-    'license': 'LGPL-3',
 }

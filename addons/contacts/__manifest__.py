@@ -15,5 +15,4 @@ You can track your vendors, customers and other contacts.
         'views/contact_views.xml',
     ],
     'application': True,
-    'license': 'LGPL-3',
 }

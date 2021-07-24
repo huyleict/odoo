@@ -12,5 +12,4 @@
     'data': [
         'views/payment.xml',
     ],
-    'license': 'LGPL-3',
 }

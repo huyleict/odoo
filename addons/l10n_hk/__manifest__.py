@@ -14,5 +14,4 @@
         'data/l10n_hk_chart_data.xml',
         'data/account_chart_template_configure_data.xml',
     ],
-    'license': 'LGPL-3',
 }

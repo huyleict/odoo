@@ -20,5 +20,4 @@ This is a base module. It holds website-related stuff for Contact model (res.par
     ],
     'installable': True,
     'auto_install': False,
-    'license': 'LGPL-3',
 }

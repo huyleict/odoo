@@ -30,5 +30,4 @@ Three algorithms are suggested:
         'views/res_config_settings_views.xml',
     ],
     'auto-install': True,
-    'license': 'LGPL-3',
 }

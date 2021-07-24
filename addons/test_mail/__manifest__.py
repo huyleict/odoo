@@ -21,5 +21,4 @@ tests independently to functional aspects of other models. """,
     ],
     'installable': True,
     'application': False,
-    'license': 'LGPL-3',
 }

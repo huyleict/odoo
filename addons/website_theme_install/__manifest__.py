@@ -12,5 +12,4 @@
     ],
     'depends': ['website'],
     'auto_install': True,
-    'license': 'LGPL-3',
 }
